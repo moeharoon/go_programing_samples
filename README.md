@@ -1,6 +1,6 @@
 # Go Programming Language Learning Samples
 
-### Installation
+### Installation and testing install
 > Ubuntu: 
 1. Install binaries
 ```
@@ -14,13 +14,13 @@ sudo apt install golang-go
     export GOPATH
 ```
 3. Create workspace
-```
+```sh
   mkdir -p /home/mharoon/dev/go
   mkdir /home/mharoon/dev/go/src
   mkdir /home/mharoon/dev/go/src/hi
 ```  
 4. Test installation by creating a test file **hi.go** in $GOPATH/src/hi
-```
+```go
 package main
 
 import "fmt"
